@@ -1,0 +1,115 @@
+/**
+    Layout for the basic portfolio
+**/
+*{
+    box-sizing: border-box;
+}
+body
+{
+    box-sizing: content-box;
+    font-family:arial;
+    /*margin:100px;*/
+}
+/*.wrapper/*this class is for the header
+{
+    text-align: center;
+    background: #f7f3f3;
+    padding:15px;
+    border-bottom-width:10px;
+    font-family:georgia;
+    border-bottom-color:#cccccc;
+    height:110px;
+    margin:10px;
+}*/
+
+#relative
+{
+    
+    margin-top:20px;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:white;
+    position:relative;
+    padding:0;
+    margin-bottom:0;
+    height:100px;
+}
+#absolute
+{
+    background-color:#4aaaa5;
+    color:white;
+    font-family: 'Times New Roman';
+    font-size:28px;
+    text-align:center;
+    width:250px;
+    Position:absolute;
+    padding:20px;
+    margin-left:380px;
+    bottom:0;
+    left:20px;
+}
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.nav
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:15%;
+    height:60%;
+    padding:0;
+    margin-left:1090px;
+    box-sizing: border-box;
+    transition:.3s;
+    background-color:none;
+    float:right;
+}
+li
+{
+    list-style:none;
+    width:100%;
+    /*float:right;*/
+}
+
+a
+{
+    text-decoration: none;
+    line-height:50px;
+    /*padding:12px;*/
+    color:rgba(88, 85, 85, 0.867);
+    margin-right:20px;
+    transition: .3s;
+    border-right-color: rgb(88,85,85,0.867);
+    float:right;
+}
+    
+    /*a:visited
+{
+    background-color:white; text-decoration:none;
+}*/
+a:hover
+{
+    background-color:#777777; text-decoration:none;
+}
+/*a:active
+{
+    background-color:white; text-decoration:none;
+} */  
+
+#footer
+{
+    border-top:20px;
+    border-style:solid;
+    border-top-color: #4aaaa5;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:#666666;
+    /*position:relative;*/
+    padding:20px;
+    margin-bottom:20px;
+    height:50px;
+}

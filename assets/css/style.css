@@ -1,0 +1,343 @@
+/**
+    Layout for the basic portfolio
+**/
+*{
+    box-sizing: border-box;
+}
+body
+{
+    box-sizing: content-box;
+    font-family:arial;
+    margin:auto;
+    /*height:100%;
+    margin:0;*/
+}
+#relative
+{
+    margin:0 auto;
+    margin-top:0px;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:white;
+    border-bottom:2px;
+    border-style:solid;
+    border-color:lightslategrey;
+    position:relative;
+    padding:0;
+    margin-bottom:0;
+    height:100px;
+}
+#absolute
+{
+    background-color:#4aaaa5;
+    color:white;
+    font-family: 'Times New Roman';
+    font-size:28px;
+    text-align:center;
+    width:250px;
+    Position:absolute;
+    padding:20px;
+    margin-left:380px;
+    bottom:0;
+    left:20px;
+}
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.nav
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:15%;
+    height:60%;
+    padding:0;
+    margin-left:1090px;
+    box-sizing: border-box;
+    transition:.3s;
+    background-color:none;
+    float:right;
+}
+li
+{
+    list-style:none;
+    width:100%;
+    /*float:right;*/
+}
+a
+{
+    text-decoration: none;
+    line-height:50px;
+    /*padding:12px;*/
+    color:rgba(88, 85, 85, 0.867);
+    margin-right:20px;
+    transition: .3s;
+    border-right-color: rgb(88,85,85,0.867);
+    float:right;
+}
+a:hover
+{
+    background-color:#777777; text-decoration:none;
+}
+.full
+{
+    clear:both;
+    overflow:hidden;/*margin:0 auto;*/
+    margin-right:60px;
+    margin-left:60px;
+    /*position:relative;*/
+    padding:0;
+    height:700px;
+    background-image: url(../images/canvas-texture-paper.jpg);
+    background-size:contain;
+    
+}
+#division
+{
+    background-color:#ffffff;
+    position:relative;
+    box-sizing: content-box;
+    width:960px;
+    height: 700px;
+    /*padding: 30px;*/
+    margin-bottom:20px;
+    border: 1px;
+    border-style:solid;
+    border-color:#dddddd;
+    /*color:gray;*/
+    margin-top:20px;
+    margin-right:400px;
+    margin-left:400px;
+   
+}
+.content
+{
+    position:relative;
+    font-family: 'Times New Roman';
+    margin-right:20px;
+    margin-left:20px;
+    border-color:#be0808;
+    border-style:solid;
+    border:5px;
+}
+h1{ color:teal;
+    /*font-size:"35px";*/
+    font-style:bold;}
+.fixed
+{
+    /*height:200px;
+    width: 200px;
+    position:absolute;*/
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+#Photo    /*Setting the background image/setting for the area behinf the contain area*/
+{
+   /* position:absolute;*/
+    top:15%;
+    left:2%;
+    background-image: url(../images/self.jpg);
+    background-size:contain;
+    border-color:black;
+}
+.rotate170
+{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.paragraph
+{
+    min-height:100%;
+    margin-bottom: -75px;
+    font-size:18px;
+    color:gray;
+    text-align: justify;
+    line-height:30px;
+    letter-spacing: .1em;
+}
+
+/*PORTFOLIO CODES STARTS FROM HERE..........................................*/
+.box-set
+{
+    height:500px;
+    position:relative;
+}
+.box
+{
+    height:160px;
+    position:absolute;
+    width: 200px; 
+}
+.hangman
+{
+    top:5%;
+    left:2%;
+    background-image: url(../images/flower1.png);
+    /*background-position: center;
+    overflow: hidden;*/
+    background-size:contain;
+    border-color:rgb(48, 49, 49);
+    border-style:solid;
+    border-width:1px;
+}
+#name1
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:200px;
+    height:45px;
+    Position:absolute;
+    padding:5px;
+    color:white;
+    bottom:5px;
+    left:0px;
+}
+.Rpg-game
+{
+    top:5%;
+    left:30%;
+    background-image: url(../images/flower3.png);
+    background-size:contain;
+    border-color:rgb(48, 49, 49);
+    border-style:solid;
+    border-width:1px;
+}
+#name2
+{
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    width:200px;
+    height:45px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:5px;
+    left:0px;
+}
+.Rutgers
+{
+    top:43%;
+    left:30%;
+    background-image: url(../images/flower6.png);
+    background-size:contain;
+    border-color:rgb(48, 49, 49);
+    border-style:solid;
+    border-width:1px;
+}
+#name3
+{
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    width:200px;
+    height:45px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:5px;
+    left:0px;
+}
+.Trivia-game
+{
+    top:43%;
+    left:2%;
+    background-image: url(../images/flower7.png);
+    background-size:contain;
+    border-color:rgb(48, 49, 49);
+    border-style:solid;
+    border-width:1px;
+}
+#name4
+{
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    width:200px;
+    height:50px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:5px;
+    left:0px;
+}
+.Rock
+{
+    top:81%;
+    left:2%;
+    background-image: url(../images/flower5.png);
+    background-size:contain;
+    border-color:rgb(48, 49, 49);
+    border-style:solid;
+    border-width:1px;
+}
+#name5
+{
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    width:200px;
+    height:45px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:5px;
+    left:0px;
+}
+
+/*CONTACT CODES STARTS FROM HERE......*/
+.wrapper
+{
+  margin:0 auto;
+}
+.wrapper input
+{
+    width:100%;
+    margin-bottom:15px;
+    padding:5px;
+}
+.wrapper  textarea{
+    width:100%;
+    margin-bottom:15px;
+    padding:5px;
+}
+.wrapper a
+{
+    float:left;
+    height:50px;
+    width:100px;
+    display:block;
+    background-color:teal;
+    bottom:25px;
+    color:white;
+    font-size:20px;
+    font-family:'Times New Roman';
+    text-align:center;
+    text-decoration:none;
+
+
+}
+
+
+/*FOOTER CODES*/
+.footer
+{
+    border-top:10px;
+    border-style:solid;
+    border-top-color: #4aaaa5;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:#666666;
+    /*position:relative;*/
+    padding:0px;
+    bottom:0;
+    height:75px;
+}

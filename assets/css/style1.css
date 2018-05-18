@@ -1,0 +1,242 @@
+/**
+    Layout for the basic portfolio
+**/
+*{
+    box-sizing: border-box;
+}
+body
+{
+    box-sizing: content-box;
+    font-family:arial;
+    /*margin:100px;*/
+}
+/*.wrapper/*this class is for the header
+{
+    text-align: center;
+    background: #f7f3f3;
+    padding:15px;
+    border-bottom-width:10px;
+    font-family:georgia;
+    border-bottom-color:#cccccc;
+    height:110px;
+    margin:10px;
+}*/
+
+#relative
+{
+    
+    margin-top:20px;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:white;
+    position:relative;
+    padding:0;
+    margin-bottom:0;
+    height:100px;
+}
+#absolute
+{
+    background-color:#4aaaa5;
+    color:white;
+    font-family: 'Times New Roman';
+    font-size:28px;
+    text-align:center;
+    width:250px;
+    Position:absolute;
+    padding:20px;
+    margin-left:380px;
+    bottom:0;
+    left:20px;
+}
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.nav
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:15%;
+    height:60%;
+    padding:0;
+    margin-left:1090px;
+    box-sizing: border-box;
+    transition:.3s;
+    background-color:none;
+    float:right;
+}
+li
+{
+    list-style:none;
+    width:100%;
+}
+
+a
+{
+    text-decoration: none;
+    line-height:50px;
+    /*padding:12px;*/
+    color:rgba(88, 85, 85, 0.867);
+    margin-right:20px;
+    transition: .3s;
+    border-right-color: rgb(88,85,85,0.867);
+    float:right;
+}
+
+.container
+{
+    margin-right:60px;
+    margin-left:60px;
+    /*position:relative;*/
+    padding:0;
+    /*height:100px;*/
+    background-image: url(../images/canvas-texture-paper.jpg);
+}
+#division
+{
+    background-color:#ffffff;
+    position:relative;
+    box-sizing: content-box;
+    width:960px;
+    height: 700px;
+    /*padding: 30px; 
+    border: 10px;
+    border-color:lightslategrey;
+    /*color:gray;*/
+    margin-top:20px;
+    margin-right:400px;
+    margin-left:400px;
+    margin-bottom:0;
+}
+h2{
+    color: teal; 
+    font-size:"30px";
+}
+
+.content{
+    font-family: 'Times New Roman';
+    margin-right:20px;
+    margin-left:20px;   
+}
+.box-set
+{
+    height:300px;
+}
+
+.box
+{
+    height:150px;
+    position:absolute;
+    width: 150px;   
+}
+
+.hangman
+{
+    top:15%;
+    left:2%;
+    background-image: url(../images/flower1.png);
+    /*background-position: center;
+    overflow: hidden;*/
+    background-size:contain;
+    border-color:black;
+}
+#name1
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:150px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:2px;
+    left:0px;
+}
+.Rpg-game
+{
+    top:15%;
+    left:40%;
+    background-image: url(../images/flower3.png);
+    background-size:contain;
+}
+#name2
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:150px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:2px;
+    left:0px;
+}
+.Rutgers
+{
+    top:40%;
+    left:40%;
+    background-image: url(../images/flower6.png);
+    background-size:contain;
+}
+#name3
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:150px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:2px;
+    left:0px;
+}
+.Trivia-game
+{
+    top:40%;
+    left:2%;
+    background-image: url(../images/flower7.png);
+    background-size:contain;
+}
+#name4
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:150px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:2px;
+    left:0px;
+}
+
+.Rock
+{
+    top:65%;
+    left:2%;
+    background-image: url(../images/flower5.png);
+    background-size:contain;
+}
+#name5
+{
+    background-color:#4aaaa5;
+    text-align:center;
+    width:150px;
+    Position:absolute;
+    padding:5px;
+    /*margin-left:320px;*/
+    bottom:2px;
+    left:0px;
+}
+#footer
+{
+    border-top:20px;
+    border-style:solid;
+    border-top-color: #4aaaa5;
+    margin-right:60px;
+    margin-left:60px;
+    background-color:#666666;
+    /*position:relative;*/
+    padding:20px;
+    margin-bottom:20px;
+    height:50px;
+}
