@@ -25,17 +25,18 @@ body
     position:relative;
     padding:0;
     margin-bottom:0;
-    height:100px;
+    height:80px;
 }
 #absolute
 {
+    Position:absolute;
     background-color:#4aaaa5;
     color:white;
     font-family: 'Times New Roman';
     font-size:28px;
     text-align:center;
     width:250px;
-    Position:absolute;
+    height:100%;
     padding:20px;
     margin-left:380px;
     bottom:0;
@@ -47,50 +48,65 @@ body
     display: block;
     clear: both;
 }
-.nav
+nav
 {
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:15%;
-    height:60%;
-    padding:0;
-    margin-left:1090px;
-    box-sizing: border-box;
-    transition:.3s;
-    background-color:none;
     float:right;
+    margin-right:395px;
+    margin-bottom:5px;
 }
-li
+nav li{
+   
+    margin: 5px 5px 5px 0;
+}
+nav ul li
 {
+    display:inline-block;
+    line-height:20%;
+    border-right:1px;
+    border-right-style:solid;
+    border-right-color:lightgrey;
+    padding:15px;
     list-style:none;
-    width:100%;
-    /*float:right;*/
 }
-a
+nav ul li a
 {
     text-decoration: none;
-    line-height:50px;
-    /*padding:12px;*/
     color:rgba(88, 85, 85, 0.867);
-    margin-right:20px;
-    transition: .3s;
-    border-right-color: rgb(88,85,85,0.867);
-    float:right;
+    font-size:15px;
+   
 }
 a:hover
 {
-    background-color:#777777; text-decoration:none;
+    background-color:#777777;
+    color:rgb(144, 213, 240);
+    margin:10px;
 }
-.full
+
+/*FOOTER CODES............................................*/
+.footer
 {
-    clear:both;
-    overflow:hidden;/*margin:0 auto;*/
+    
+    border-top:5px;
+    border-style:solid;
+    border-top-color: #4aaaa5;
     margin-right:60px;
     margin-left:60px;
-    /*position:relative;*/
+    background-color:#666666;
+    text-align:center;
+    color:lightgrey;
+    padding:0px;
+    bottom:0;
+    height:75px;
+    
+
+}
+.full    /*.....background style */
+{
+    clear:both;
+    overflow:hidden;
+    margin-right:60px;
+    margin-left:60px;
     padding:0;
-    height:700px;
     background-image: url(../images/canvas-texture-paper.jpg);
     background-size:contain;
     
@@ -100,8 +116,7 @@ a:hover
     background-color:#ffffff;
     position:relative;
     box-sizing: content-box;
-    width:960px;
-    height: 700px;
+    width:px;
     /*padding: 30px;*/
     margin-bottom:20px;
     border: 1px;
@@ -115,16 +130,24 @@ a:hover
 }
 .content
 {
-    position:relative;
+    background-color:#ffffff;
     font-family: 'Times New Roman';
-    margin-right:20px;
-    margin-left:20px;
-    border-color:#be0808;
+    font-style:bold;
+    font-size:"35px";
+    height:auto;
+    padding-right:20px;
+    padding-left:20px;
+    margin-right:400px; /* changed from 20px*/
+    margin-left:400px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-color:#636161;
     border-style:solid;
     border:5px;
+    box-sizing: content-box;
+    overflow:hidden;
 }
 h1{ color:teal;
-    /*font-size:"35px";*/
     font-style:bold;}
 .fixed
 {
@@ -143,7 +166,7 @@ h1{ color:teal;
     left:2%;
     background-image: url(../images/self.jpg);
     background-size:contain;
-    border-color:black;
+    border-color:rgb(107, 105, 105);
 }
 .rotate170
 {
@@ -156,188 +179,182 @@ h1{ color:teal;
 .paragraph
 {
     min-height:100%;
-    margin-bottom: -75px;
+    /*margin-bottom: -75px;*/
     font-size:18px;
     color:gray;
     text-align: justify;
     line-height:30px;
-    letter-spacing: .1em;
-}
+   }
 
 /*PORTFOLIO CODES STARTS FROM HERE..........................................*/
 .box-set
 {
     height:500px;
-    position:relative;
-}
-.box
-{
-    height:160px;
-    position:absolute;
-    width: 200px; 
+    text-align:center;
+    font-size:18px;
+    /*position:relative;*/
 }
 .hangman
 {
-    top:5%;
-    left:2%;
+    position:relative;
+    width:231px;  
+    height:180px;
+    padding:20px;
+    margin:20px;
+    float:left;
     background-image: url(../images/flower1.png);
-    /*background-position: center;
-    overflow: hidden;*/
     background-size:contain;
-    border-color:rgb(48, 49, 49);
+    border-color:lightslategray;
     border-style:solid;
     border-width:1px;
 }
 #name1
 {
-    background-color:#4aaaa5;
-    text-align:center;
-    width:200px;
-    height:45px;
     Position:absolute;
+    background-color:#4aaaa5;
+    width:100%;
+    height:50px;
     padding:5px;
     color:white;
-    bottom:5px;
+    bottom:7px;
     left:0px;
 }
 .Rpg-game
 {
-    top:5%;
-    left:30%;
+    position:relative;
+    width:231px;  
+    height:180px;
+    padding:20px;
+    margin:20px;
+    float:left;
     background-image: url(../images/flower3.png);
     background-size:contain;
-    border-color:rgb(48, 49, 49);
+    border-color:lightslategray;
     border-style:solid;
     border-width:1px;
 }
 #name2
 {
+    position:absolute;
     background-color:#4aaaa5;
     color:white;
-    text-align:center;
-    width:200px;
-    height:45px;
-    Position:absolute;
-    padding:5px;
-    /*margin-left:320px;*/
-    bottom:5px;
-    left:0px;
-}
-.Rutgers
-{
-    top:43%;
-    left:30%;
-    background-image: url(../images/flower6.png);
-    background-size:contain;
-    border-color:rgb(48, 49, 49);
-    border-style:solid;
-    border-width:1px;
-}
-#name3
-{
-    background-color:#4aaaa5;
-    color:white;
-    text-align:center;
-    width:200px;
-    height:45px;
-    Position:absolute;
-    padding:5px;
-    /*margin-left:320px;*/
+    width:100%;
+    height:50px;
+    padding:7px;
     bottom:5px;
     left:0px;
 }
 .Trivia-game
 {
-    top:43%;
-    left:2%;
+    position:relative;
+    width:231px;  
+    height:180px;
+    padding:20px;
+    margin:20px;
+    float:left;
+    background-image: url(../images/flower6.png);
+    background-size:contain;
+    border-color:lightslategray;
+    border-style:solid;
+    border-width:1px;
+    clear:both;
+        
+}
+#name3
+{
+    position:absolute;
+    background-color:#4aaaa5;
+    color:white;
+    width:100%;
+    height:50px;
+    padding:5px;
+    bottom:7px;
+    left:0px;
+}
+.Rutgers
+{
+    position:relative;
+    width:231px;  
+    height:180px;
+    padding:20px;
+    margin:20px;
+    float:left;
     background-image: url(../images/flower7.png);
     background-size:contain;
-    border-color:rgb(48, 49, 49);
+    border-color:lightslategray;
     border-style:solid;
     border-width:1px;
 }
 #name4
 {
+    position:absolute;
     background-color:#4aaaa5;
     color:white;
     text-align:center;
-    width:200px;
+    width:100%;
     height:50px;
-    Position:absolute;
     padding:5px;
-    /*margin-left:320px;*/
-    bottom:5px;
+    bottom:7px;
     left:0px;
 }
 .Rock
 {
-    top:81%;
-    left:2%;
+    position:relative;
+    width:231px;  
+    height:180px;
+    padding:20px;
+    margin:20px;
+    float:left;
     background-image: url(../images/flower5.png);
     background-size:contain;
-    border-color:rgb(48, 49, 49);
+    border-color:lightslategray;
     border-style:solid;
     border-width:1px;
+    clear:both;
 }
 #name5
 {
+    position:absolute;
     background-color:#4aaaa5;
     color:white;
-    text-align:center;
-    width:200px;
-    height:45px;
-    Position:absolute;
+    width:100%;
+    height:50px;
     padding:5px;
-    /*margin-left:320px;*/
-    bottom:5px;
+    bottom:7px;
     left:0px;
 }
 
-/*CONTACT CODES STARTS FROM HERE......*/
-.wrapper
+/*CONTACT CODES STARTS FROM HERE...........................*/
+label
 {
-  margin:0 auto;
-}
-.wrapper input
+    display:block;
+    background-color:transparent;
+    padding-top:5px;
+    padding-bottom:5x;
+    }
+input[type=submit]
 {
-    width:100%;
-    margin-bottom:15px;
-    padding:5px;
-}
-.wrapper  textarea{
-    width:100%;
-    margin-bottom:15px;
-    padding:5px;
-}
-.wrapper a
-{
-    float:left;
-    height:50px;
-    width:100px;
+    width:15%;
+    height:20px;
+    padding: 20px 20px;
+    margin-bottom:10px;
     display:block;
     background-color:teal;
-    bottom:25px;
     color:white;
-    font-size:20px;
-    font-family:'Times New Roman';
     text-align:center;
-    text-decoration:none;
-
-
 }
-
-
-/*FOOTER CODES*/
-.footer
+input[type=text]
 {
-    border-top:10px;
-    border-style:solid;
-    border-top-color: #4aaaa5;
-    margin-right:60px;
-    margin-left:60px;
-    background-color:#666666;
-    /*position:relative;*/
-    padding:0px;
-    bottom:0;
-    height:75px;
+    width:100%;
+    height:30px;
+    padding:10px;
+    display:inline-block;
 }
+textarea
+{
+    width:100%;
+    height:155px;
+    padding-top:10px;
+    display:inline-block;
+}
+    

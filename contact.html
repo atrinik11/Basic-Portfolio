@@ -7,40 +7,40 @@
     </head>
     <body>
         <header id="header" >
-        <div id="relative">
+        <section id="relative">
             <div id="absolute">
                 Reena Mahapatra
             </div>
-            <div class="nav">
+            <nav>
                 <ul>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="index.html">About</a></li>  
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </section>
         </header>
         <section class="full"> 
-                <div id="division">
+            <!--div id="division"-->
                     <br>
-                    <div class="content">
-                        <div class="wrapper">
-                        <h1>Contact</h1>
-                        <hr>
-                        <h3>Name</h3><br>
-                        <input type="text" placeholder="Enter your full name"><br><br>
-                        <h3>Email</h3><br>
-                        <input type="text" placeholder="Enter your email-id"><br><br>
-                        <h3>Message</h3><br>
-                        <textarea cols="50" rows="20"></textarea><br><br><br>
-                        <a href="#">Submit</a>
-                        </div>
-                    </div>
+                <div class="content"><br>
+                    <h1>Contact</h1>
+                    <hr>
+                    <form>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" placeholder="Enter your full name"><br>
+                        <label for="email">Email-id</label><br>
+                        <input type="text" placeholder="Enter your email-id"><br>
+                        <label for="textarea">Message</label><br>
+                        <textarea></textarea><br>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
+            <!--/div-->
         </section>
 
         <footer class="footer">
-            
-            </footer>
+                <p>@Copyright 2018</p>
+        </footer>
         </body>
     </html>
