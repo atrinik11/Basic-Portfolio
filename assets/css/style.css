@@ -202,17 +202,7 @@ a{
     background-image: url(../images/flower1.png);
     background-size:contain;
 }
-#name1
-{
-    Position:absolute;
-    background-color:#4aaaa5;
-    text-align:center;
-    width:100%;
-    height:50px;
-    padding:5px;
-    bottom:7px;
-    left:0px;
-}
+
 .Rpg-game
 {
     position:relative;
@@ -227,17 +217,7 @@ a{
     background-image: url(../images/flower3.png);
     background-size:contain;
 }
-#name2
-{
-    position:absolute;
-    background-color:#4aaaa5;
-    text-align:center;
-    width:100%;
-    height:50px;
-    padding:5px;
-    bottom:7px;
-    left:0px;
-}
+
 .Trivia-game
 {
     position:relative;
@@ -253,17 +233,7 @@ a{
     background-image: url(../images/flower6.png);
     background-size:contain;
 }
-#name3
-{
-    position:absolute;
-    background-color:#4aaaa5;
-    text-align:center;
-    width:100%;
-    height:50px;
-    padding:5px;
-    bottom:7px;
-    left:0px;
-}
+
 .Giftastic
 {
     position:relative;
@@ -278,17 +248,7 @@ a{
     background-image: url(../images/flower7.png);
     background-size:contain;
 }
-#name4
-{
-    position:absolute;
-    background-color:#4aaaa5;
-    text-align:center;
-    width:100%;
-    height:50px;
-    padding:5px;
-    bottom:7px;
-    left:0px;
-}
+
 .Train-scheduler {
     position:relative;
     float:left;
@@ -303,8 +263,10 @@ a{
     background-image: url(../images/flower5.png);
     background-size:contain;
 }
-#name5 {
-    position:absolute;
+
+#name1, #name2, #name3, #name4, #name5
+{
+    Position:absolute;
     background-color:#4aaaa5;
     text-align:center;
     width:100%;
