@@ -102,7 +102,7 @@ a:hover
     color:lightgrey;
     padding:25px 0;
     bottom:0;
-    height:50px;
+    height:70px;
 }
 .full    /*.....background style */
 {
@@ -289,8 +289,7 @@ a{
     bottom:7px;
     left:0px;
 }
-.Train-scheduler
-{
+.Train-scheduler {
     position:relative;
     float:left;
     clear:both;
@@ -304,8 +303,7 @@ a{
     background-image: url(../images/flower5.png);
     background-size:contain;
 }
-#name5
-{
+#name5 {
     position:absolute;
     background-color:#4aaaa5;
     text-align:center;
@@ -350,8 +348,6 @@ textarea
     padding-top:10px;
     display:inline-block;
 }
-
-
 
 
 /*MEDIA QUERY CODE STARTS FROM HERE............................................*/
