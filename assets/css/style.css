@@ -261,7 +261,7 @@ a{
     border-style:solid;
     border-width:1px;
     background-image: url(../images/night-train.jpg);
-    background-size:contain;
+    background-size:cover;
 }
 
 #name1, #name2, #name3, #name4, #name5
